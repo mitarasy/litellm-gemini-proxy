@@ -56,9 +56,9 @@
       "prefer_websockets": false
     },
     {
-      "slug": "gemini-3.5-flash",
-      "display_name": "gemini-3.5-flash",
-      "description": "Local model: gemini-3.5-flash via LiteLLM",
+      "slug": "gemini-3.6-flash",
+      "display_name": "gemini-3.6-flash",
+      "description": "Local model: gemini-3.6-flash via LiteLLM",
       "default_reasoning_level": "medium",
       "supported_reasoning_levels": [
         {
@@ -115,9 +115,9 @@
       "prefer_websockets": false
     },
     {
-      "slug": "gemini-3.1-flash-lite",
-      "display_name": "gemini-3.1-flash-lite",
-      "description": "Local model: gemini-3.1-flash-lite via LiteLLM",
+      "slug": "gemini-3.5-flash-lite",
+      "display_name": "gemini-3.5-flash-lite",
+      "description": "Local model: gemini-3.5-flash-lite via LiteLLM",
       "default_reasoning_level": "minimal",
       "supported_reasoning_levels": [
         {
