@@ -12,9 +12,9 @@
   - Gemini 3.1 Flash Lite (`gemini-3.1-flash-lite`) -> `gemini/gemini-3.1-flash-lite`
 
 - **Claude エイリアス機能**: ツール側でClaudeのモデル名として指定されたリクエストを、対応するクラスのGeminiモデルへ転送します。
-  - `claude-opus-4-8*` → `gemini-3.1-pro`
-  - `claude-sonnet-4-6*` → `gemini-3.5-flash`
-  - `claude-haiku-4-5*` → `gemini-3.1-flash-lite`
+  - `claude-opus-*` → `gemini-3.1-pro`
+  - `claude-sonnet-*` → `gemini-3.5-flash`
+  - `claude-haiku-*` → `gemini-3.1-flash-lite`
 
 ## 必要要件
 
