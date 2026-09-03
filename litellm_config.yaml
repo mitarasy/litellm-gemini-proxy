@@ -11,11 +11,11 @@ model_list:
     litellm_params: *pro_config
 
   # ==========================================
-  # Gemini 3.7 Flash の設定
+  # Gemini 3.8 Flash の設定
   # ==========================================
-  - model_name: gemini-3.7-flash
+  - model_name: gemini-3.8-flash
     litellm_params: &flash_config
-      model: gemini/gemini-3.7-flash
+      model: gemini/gemini-3.8-flash
       api_key: os.environ/GEMINI_API_KEY
 
   - model_name: claude-sonnet-*

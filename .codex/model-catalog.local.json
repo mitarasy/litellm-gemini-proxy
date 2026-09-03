@@ -56,9 +56,9 @@
       "prefer_websockets": false
     },
     {
-      "slug": "gemini-3.7-flash",
-      "display_name": "gemini-3.7-flash",
-      "description": "Local model: gemini-3.7-flash via LiteLLM",
+      "slug": "gemini-3.8-flash",
+      "display_name": "gemini-3.8-flash",
+      "description": "Local model: gemini-3.8-flash via LiteLLM",
       "default_reasoning_level": "medium",
       "supported_reasoning_levels": [
         {

@@ -8,12 +8,12 @@
 
 - **Gemini モデルへのルーティング**: 以下の最新Geminiモデルへのプロキシを提供します。
   - Gemini 3.1 Pro (`gemini-3.1-pro`) -> `gemini/gemini-3.1-pro-preview`
-  - Gemini 3.7 Flash (`gemini-3.7-flash`) -> `gemini/gemini-3.7-flash`
+  - Gemini 3.8 Flash (`gemini-3.8-flash`) -> `gemini/gemini-3.8-flash`
   - Gemini 3.5 Flash Lite (`gemini-3.5-flash-lite`) -> `gemini/gemini-3.5-flash-lite`
 
 - **Claude エイリアス機能**: ツール側でClaudeのモデル名として指定されたリクエストを、対応するクラスのGeminiモデルへ転送します。
   - `claude-opus-*` → `gemini-3.1-pro`
-  - `claude-sonnet-*` → `gemini-3.7-flash`
+  - `claude-sonnet-*` → `gemini-3.8-flash`
   - `claude-haiku-*` → `gemini-3.5-flash-lite`
 
 ## 必要要件
@@ -59,7 +59,7 @@
 `.codex/config.toml` に設定が用意されています。
 モデルプロバイダーとして `litellm` を定義し、ローカルの `http://localhost:4000` を参照する設定が含まれています。
 また、カスタムモデル（Geminiの各モデル名など）をCodex CLIに正しく認識させるため、ローカルのモデルカタログファイルを参照する設定（`model_catalog_json = "~/.codex/model-catalog.local.json"`）が追加されています。
-デフォルトのモデルとして `gemini-3.7-flash` が指定されています。必要に応じてモデル名を変更してご利用ください。
+デフォルトのモデルとして `gemini-3.8-flash` が指定されています。必要に応じてモデル名を変更してご利用ください。
 
 
 ## 設定のカスタマイズ
