@@ -1,14 +1,14 @@
 model_list:
   # ==========================================
-  # Gemini 3.1 Pro の設定
+  # Gemini 4 Argon の設定
   # ==========================================
-  - model_name: gemini-3.1-pro
-    litellm_params: &pro_config
-      model: gemini/gemini-3.1-pro-preview
+  - model_name: gemini-4-argon
+    litellm_params: &argon_config
+      model: gemini/gemini-4-argon
       api_key: os.environ/GEMINI_API_KEY
 
   - model_name: claude-opus-*
-    litellm_params: *pro_config
+    litellm_params: *argon_config
 
   # ==========================================
   # Gemini 3.8 Flash の設定

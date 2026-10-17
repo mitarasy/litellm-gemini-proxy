@@ -1,9 +1,9 @@
 {
   "models": [
     {
-      "slug": "gemini-3.1-pro",
-      "display_name": "gemini-3.1-pro",
-      "description": "Local model: gemini-3.1-pro via LiteLLM",
+      "slug": "gemini-4-argon",
+      "display_name": "gemini-4-argon",
+      "description": "Local model: gemini-4-argon via LiteLLM",
       "default_reasoning_level": "high",
       "supported_reasoning_levels": [
         {
