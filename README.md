@@ -7,12 +7,12 @@
 ## 特徴
 
 - **Gemini モデルへのルーティング**: 以下の最新Geminiモデルへのプロキシを提供します。
-  - Gemini 4 Argon (`gemini-4-argon`) -> `gemini/gemini-4-argon`
+  - Gemini 4 Carbon (`gemini-4-carbon`) -> `gemini/gemini-4-carbon`
   - Gemini 4 Hydrogen (`gemini-4-hydrogen`) -> `gemini/gemini-4-hydrogen`
   - Gemini 3.5 Flash Lite (`gemini-3.5-flash-lite`) -> `gemini/gemini-3.5-flash-lite`
 
 - **Claude エイリアス機能**: ツール側でClaudeのモデル名として指定されたリクエストを、対応するクラスのGeminiモデルへ転送します。
-  - `claude-opus-*` → `gemini-4-argon`
+  - `claude-opus-*` → `gemini-4-carbon`
   - `claude-sonnet-*` → `gemini-4-hydrogen`
   - `claude-haiku-*` → `gemini-3.5-flash-lite`
 

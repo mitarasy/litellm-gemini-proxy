@@ -1,9 +1,9 @@
 {
   "models": [
     {
-      "slug": "gemini-4-argon",
-      "display_name": "gemini-4-argon",
-      "description": "Local model: gemini-4-argon via LiteLLM",
+      "slug": "gemini-4-carbon",
+      "display_name": "gemini-4-carbon",
+      "description": "Local model: gemini-4-carbon via LiteLLM",
       "default_reasoning_level": "high",
       "supported_reasoning_levels": [
         {

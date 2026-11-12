@@ -1,14 +1,14 @@
 model_list:
   # ==========================================
-  # Gemini 4 Argon の設定
+  # Gemini 4 Carbon の設定
   # ==========================================
-  - model_name: gemini-4-argon
-    litellm_params: &argon_config
-      model: gemini/gemini-4-argon
+  - model_name: gemini-4-carbon
+    litellm_params: &carbon_config
+      model: gemini/gemini-4-carbon
       api_key: os.environ/GEMINI_API_KEY
 
   - model_name: claude-opus-*
-    litellm_params: *argon_config
+    litellm_params: *carbon_config
 
   # ==========================================
   # Gemini 4 Hydrogen の設定
