@@ -11,15 +11,15 @@ model_list:
     litellm_params: *argon_config
 
   # ==========================================
-  # Gemini 3.8 Flash の設定
+  # Gemini 4 Hydrogen の設定
   # ==========================================
-  - model_name: gemini-3.8-flash
-    litellm_params: &flash_config
-      model: gemini/gemini-3.8-flash
+  - model_name: gemini-4-hydrogen
+    litellm_params: &hydrogen_config
+      model: gemini/gemini-4-hydrogen
       api_key: os.environ/GEMINI_API_KEY
 
   - model_name: claude-sonnet-*
-    litellm_params: *flash_config
+    litellm_params: *hydrogen_config
 
   # ==========================================
   # Gemini 3.5 Flash lite の設定

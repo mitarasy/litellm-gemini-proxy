@@ -1,4 +1,4 @@
-model = "gemini-3.8-flash"
+model = "gemini-4-hydrogen"
 model_provider = "litellm"
 model_catalog_json = "~/.codex/model-catalog.local.json"
 
